@@ -8,8 +8,9 @@ tbody {
   white-space: nowrap;
 }
 
-tr:hover {
+#experience tr:hover {
   background-color: #D6EEEE;
+  transition: background-color .5s;
 }
 
 th {
@@ -30,4 +31,16 @@ td:last-child {
 
 tr:last-child td {
   border-bottom-width: 0;
+}
+
+hr {
+  width: 10%;
+  border-style: dotted none none;
+  border-width: 7px;
+  border-color: #D3D3D3;
+}
+
+body {
+  max-width: 900px;
+  margin: auto;
 }
